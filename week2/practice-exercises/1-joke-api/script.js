@@ -20,7 +20,6 @@ function printChuckNorrisJoke() {
         "https://api.icndb.com/jokes/random/?firstName=John&lastName=Doe"
       );
       const data = await response.json();
-      console.log(data);
       res.json(data);
     } catch (err) {
       console.log(err);

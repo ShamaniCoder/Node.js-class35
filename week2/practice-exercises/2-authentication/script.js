@@ -22,7 +22,6 @@ function printBooks() {
         }
       );
       const data = await response.json();
-      console.log(data);
       res.send(data);
     } catch (err) {
       console.log(err);
